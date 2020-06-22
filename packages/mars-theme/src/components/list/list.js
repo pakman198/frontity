@@ -42,6 +42,9 @@ const Container = styled.section`
   margin: 0;
   padding: 24px;
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 `;
 
 const Header = styled.h3`
