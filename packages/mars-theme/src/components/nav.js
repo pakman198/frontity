@@ -44,7 +44,7 @@ const NavContainer = styled.nav`
 const NavItem = styled.div`
   padding: 0;
   margin: 0 16px;
-  color: #fff;
+  color: #323131;
   font-size: 0.9em;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -56,7 +56,7 @@ const NavItem = styled.div`
     border-bottom-color: transparent;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
-      border-bottom-color: #fff;
+      border-bottom-color: #323131;
     }
   }
 

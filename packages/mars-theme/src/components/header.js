@@ -27,7 +27,7 @@ const Container = styled.div`
   max-width: 100%;
   box-sizing: border-box;
   padding: 24px;
-  color: #fff;
+  color: #323131;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -40,7 +40,7 @@ const Title = styled.h2`
 
 const Description = styled.h4`
   margin: 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(#323131, 0.7);
 `;
 
 const StyledLink = styled(Link)`
