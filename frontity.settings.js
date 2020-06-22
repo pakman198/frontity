@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Pako Herrera",
+      "description": "Software Engineer, javascript enthusiast. I blog about tech and quote books."
     }
   },
   "packages": [
@@ -18,25 +18,13 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "About me",
+              "/about-me"
             ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +33,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.org/wp-json"
+          "api": "https://public-api.wordpress.com/wp/v2/sites/pakman198.wordpress.com"
         }
       }
     },
