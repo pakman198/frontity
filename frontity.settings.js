@@ -21,6 +21,10 @@ const settings = {
               "About me",
               "/about-me"
             ],
+            [
+              "Get in touch",
+              "/contact"
+            ]
           ],
           "featured": {
             "showOnList": true,

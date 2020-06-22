@@ -8,6 +8,8 @@ import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
 
+import Contact from '../pages/Contact/Contact';
+
 /**
  * Theme is the root React component of our theme. The one we will export
  * in roots.
@@ -39,6 +41,7 @@ const Theme = ({ state }) => {
       <Main>
         <Switch>
           <Loading when={data.isFetching} />
+          <Contact when={data.isContact} />
           <List when={data.isArchive} />
           <Post when={data.isPostType} />
           <PageError when={data.isError} />
